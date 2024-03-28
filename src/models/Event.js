@@ -53,9 +53,9 @@ module.exports = (sequelize) => {
             type: DataTypes.STRING,
             allowNull: true,
         },
-        authorized: {
+        // authorized: {
             // a que se refiere con personas autorizadas a la venta? o mejor dicho, que tipo de dato recibiria este campo?      
-        },
+        // },
         date: {
             type: DataTypes.STRING,
             allowNull: false,
